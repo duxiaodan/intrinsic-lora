@@ -11,4 +11,4 @@ run_log.json
 *.jpg
 sbatch_*.py
 slurm_utils.py
-train_.sh
+train_*.sh
