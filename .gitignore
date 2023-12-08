@@ -1,0 +1,14 @@
+*/__pycache__/
+__pycache__
+exps
+slurm_outputs
+wandb
+*.bin
+*.pt
+temp*.py
+run_log.json
+*.png
+*.jpg
+sbatch_*.py
+slurm_utils.py
+train_.sh

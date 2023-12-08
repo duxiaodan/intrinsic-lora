@@ -1,0 +1,22 @@
+export MODEL_NAME="stabilityai/stable-diffusion-2-1"
+export DATA_DIR="/share/data/2pals/xdu/diffusers_examples/datasets/DIODE/depths"
+export HF_HOME="/share/data/2pals/xdu/HF_cache"
+
+accelerate launch --mixed_precision="fp16" augunet_diode_pseudo_depth.py \
+--pretrained_model_name_or_path=$MODEL_NAME  \
+--train_data_dir=$DATA_DIR \
+--pseudo_root='/share/data/2pals/xdu/diffusers_examples/metrics_output/DIODE/depths/ZoeDepth' \
+--output_dir="exps/debug_augunetdepth" \
+--train_batch_size=4 \
+--dataloader_num_workers=4 \
+--learning_rate=1e-4 \
+--report_to="wandb" \
+--lr_warmup_steps=0 \
+--max_train_steps=10 \
+--validation_steps=5 \
+--checkpointing_steps=5 \
+--rank=8 \
+--scene_types='outdoor,indoors' \
+--unified_prompt='depth map' \
+--resume_from_checkpoint='latest' \
+--seed=42
