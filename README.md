@@ -12,16 +12,10 @@ Abstract: *Generative models have been shown to be capable of synthesizing highl
 
 <a href="https://arxiv.org/abs/2311.17137"><img src="https://img.shields.io/badge/arXiv-2311.17137-b31b1b.svg" height=22.5></a>
 <a href="https://intrinsic-lora.github.io/"><img src="https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=Project%20Page&up_color=lightgreen&up_message=online&url=https%3A%2F%2Fintrinsic-lora.github.io" height=22.5></a>
-<!-- <a href="https://colab.research.google.com/drive/1zixo66UYGl70VOPy053o7IV_YkQt5lCZ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" height=22.5></a>
-<a href="https://huggingface.co/spaces/MirageML/sjc"><img src="https://img.shields.io/badge/🤗-Huggingface%20Space-cyan.svg" height=22.5></a> -->
-
-<!-- [ [arxiv](https://arxiv.org/abs/2212.00774) | [project page](https://pals.ttic.edu/p/score-jacobian-chaining) | [colab](https://colab.research.google.com/drive/1zixo66UYGl70VOPy053o7IV_YkQt5lCZ?usp=sharing ) ] -->
-
-<!-- Many thanks to [dvschultz](https://github.com/dvschultz) for the colab, and [AmanKishore](https://github.com/AmanKishore) for the hugging face demo.  -->
 
 
 <p align="center">
-<img src="assets/I-lora.gif" width=500/>
+<img src="assets/I-lora.gif" width=1000/>
 
 
 ## License
