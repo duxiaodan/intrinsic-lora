@@ -23,6 +23,7 @@ Since we use Stable Diffusion, we are releasing under their CreativeML Open RAIL
 
 ## Updates
 2024/2/13: We now provide inference code: `inference_sd_single.py`
+
 2024/1/2: We provide checkpoints for our single step SD model. You can download them at [GDrive](https://drive.google.com/drive/folders/1BV2IQp6itGIi6QQS7Vgug4G7slJ3yDTG?usp=sharing). Load the checkpoint using 
 
 ```bash
