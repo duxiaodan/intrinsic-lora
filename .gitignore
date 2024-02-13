@@ -3,6 +3,7 @@ __pycache__
 exps
 slurm_outputs
 wandb
+pretrained_weights
 *.bin
 *.pt
 temp*.py
