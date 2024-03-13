@@ -13,6 +13,7 @@ Abstract: *Generative models have been shown to be capable of synthesizing highl
 <a href="https://arxiv.org/abs/2311.17137"><img src="https://img.shields.io/badge/arXiv-2311.17137-b31b1b.svg" height=22.5></a>
 <a href="https://intrinsic-lora.github.io/"><img src="https://img.shields.io/website?down_color=lightgrey&down_message=offline&label=Project%20Page&up_color=lightgreen&up_message=online&url=https%3A%2F%2Fintrinsic-lora.github.io" height=22.5></a>
 
+Many thanks to [neph1](https://github.com/neph1) for the [Blender Add-on](https://github.com/neph1/blender-intrinsic-lora) ([vid](https://youtu.be/oTtM4-GYlXk)) and [kijai](https://github.com/kijai) for the [ComfyUI integration](https://github.com/kijai/ComfyUI-KJNodes)
 
 <p align="center">
 <img src="assets/I-lora.gif" width=1000/>
