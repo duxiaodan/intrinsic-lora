@@ -170,9 +170,9 @@ Our code should be compatible with "fp16" precision by just appending `--mixed_p
 ## BibTex
 ```
 @article{du2023generative,
-  author    = {Du, Xiaodan and Kolkin, Nicholas and Shakhnarovich, Greg and Bhattad, Anand},
-  title     = {Generative Models: What do they know? Do they know things? Let's find out!},
-  journal   = {arXiv},
-  year      = {2023},
+  title={Generative Models: What do they know? Do they know things? Let's find out!},
+  author={Du, Xiaodan and Kolkin, Nicholas and Shakhnarovich, Greg and Bhattad, Anand},
+  journal={arXiv preprint arXiv:2311.17137},
+  year={2023}
 }
 ```
