@@ -171,7 +171,7 @@ Our code should be compatible with "fp16" precision by just appending `--mixed_p
 
 ## BibTex
 ```
-@article{du2023intrinsics,
+@article{du2023intrinsic,
   title={Intrinsic LoRA: A Generalist Approach for Discovering Knowledge in Generative Models},
   author={Du, Xiaodan and Kolkin, Nicholas and Shakhnarovich, Greg and Bhattad, Anand},
   journal={arXiv preprint arXiv:2311.17137},
