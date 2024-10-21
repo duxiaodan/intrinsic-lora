@@ -7,7 +7,9 @@
 
 Toyota Technological Institute at Chicago, &dagger;Adobe Research
 
-Abstract: *Generative models excel at creating images that closely mimic real scenes, suggesting they inherently encode scene representations. We introduce **Intrinsic LoRA** (I-LoRA), a general approach that uses Low-Rank Adaptation (LoRA) to discover scene intrinsics such as normals, depth, albedo, and shading from a wide array of generative models. I-LoRA is lightweight, adding minimally to the model's parameters and requiring very small datasets for this knowledge discovery. Our approach, applicable to Diffusion models, GANs, and Autoregressive models alike, generates intrinsics using the same output head as the original images. Through control experiments, we establish a correlation between the generative model's quality and the extracted intrinsics' accuracy. Finally, scene intrinsics obtained by our method with just hundreds to thousands of labeled images, perform on par with those from supervised methods trained on millions of labeled examples.*
+Abstract: *Generative models excel at mimicking real scenes, suggesting they might inherently encode important intrinsic scene properties. In this paper, we aim to explore the following key questions: (1) What intrinsic knowledge do generative models like GANs, Autoregressive models, and Diffusion models encode? (2) Can we establish a general framework to recover intrinsic representations from these models, regardless of their architecture or model type? (3) How minimal can the required learnable parameters and labeled data be to successfully recover this knowledge? (4) Is there a direct link between the quality of a generative model and the accuracy of the recovered scene intrinsics?*
+
+*Our findings indicate that a small Low-Rank Adaptators (LoRA) can recover intrinsic images-depth, normals, albedo and shading-across different generators (Autoregressive, GANs and Diffusion) while using the same decoder head that generates the image. As LoRA is lightweight, we introduce very few learnable parameters (as few as 0.04% of Stable Diffusion model weights for a rank of 2), and we find that as few as 250 labeled images are enough to generate intrinsic images with these LoRA modules. Finally, we also show a positive correlation between the generative model's quality and the accuracy of the recovered intrinsics through control experiments.*
 
 
 <a href="https://arxiv.org/abs/2311.17137"><img src="https://img.shields.io/badge/arXiv-2311.17137-b31b1b.svg" height=22.5></a>
@@ -171,8 +173,8 @@ Our code should be compatible with "fp16" precision by just appending `--mixed_p
 
 ## BibTex
 ```
-@article{du2023intrinsic,
-  title={Intrinsic LoRA: A Generalist Approach for Discovering Knowledge in Generative Models},
+@article{du2023generative,
+  title={Generative Models: What do they know? Do they know things? Let's find out!},
   author={Du, Xiaodan and Kolkin, Nicholas and Shakhnarovich, Greg and Bhattad, Anand},
   journal={arXiv preprint arXiv:2311.17137},
   year={2023}
