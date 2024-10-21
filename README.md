@@ -1,4 +1,4 @@
-# Intrinsic LoRA: A Generalist Approach for Discovering Knowledge in Generative Models <h3>(Previous Title: *Generative Models: What do they know? Do they know things? Let's find out!*)</h3>
+# Generative Models: What do they know? Do they know things? Let's find out! <h3>(Previous Title: *Intrinsic LoRA: A Generalist Approach for Discovering Knowledge in Generative Models*)</h3>
 
 [Xiaodan Du](https://xiaodan.io),
 [Nick Kolkin&dagger;](https://home.ttic.edu/~nickkolkin/home.html),
